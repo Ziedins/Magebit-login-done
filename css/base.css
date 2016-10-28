@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+    background: url(../images/background.jpg) no-repeat ;
+        background-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+#container {
+    position: absolute;
+    width: 920px;
+    height: 580px;
+    top: 50%;
+    left: 50%;
+    margin: -265px 0 0 -460px;
+    zoom: 100%;
+}
+#blue-banner {
+    height: 420px;
+    width: 920px;
+    background-color: rgba(15, 26, 47, 0.9);
+    z-index: -1;
+}
+.blue-head {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+#register-left {
+    position: absolute;
+    margin-left: 85px;
+    margin-top: 75px;
+    margin-right: 560px;
+    margin-bottom: 150px;
+}
+#register-right {
+    position: absolute;
+    margin-right: 80px;
+    margin-top: 105px;
+    margin-left: 560px;
+}
+button {
+    position: absolute;
+}
+#active {
+    position: absolute;
+    width: 470px;
+    height: 460px;
+    margin-left: 420px;
+}
+#fold-top {
+    margin: -20px 0 0 10px;
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid #81d1f1;
+    border-left: 10px solid transparent;
+    position: absolute;
+}
+#fold-middle {
+    width: 10px;
+    height: 420px;
+    background-color: #232d3f;
+    margin-left: 10px;
+    position: absolute;
+    z-index: -3;
+}
+#fold-bottom {
+    margin: 420px 0 0 10px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid #81d1f1;
+    border-left: 10px solid transparent;
+    position: absolute;
+}
+#white-banner {
+    height: 460px;
+    width: 460px;
+    background-color: #ffffff;
+    margin-left: 20px;
+    z-index: 1;
+    margin-top: -20px;
+}
+#login {
+    position: absolute;
+    margin-top: 95px;
+    margin-right: 110px;
+    margin-left: 90px;
+}
+#sign-up {
+    display: none;
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 110px;
+    margin-bottom: 60px;
+    margin-right: 530px;
+}
+.blue-button {
+    background-color: transparent;
+    border-width: 2px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration-style: bold;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(73, 171, 254);
+    border-radius: 100px;
+    background-color: rgba(73, 171, 254, 0);
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    letter-spacing: 2px;
+}
+.blue-button:hover {
+    background-color: #49abfe;
+}
+.orange-button {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration-style: bold;
+    font-size: 13px;
+    position: absolute;
+    border-radius: 100px;
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    border-style: none;
+    background-color: rgb(248, 154, 53);
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+.orange-button:hover {
+    background-color: #f8bf35;
+}
+.orange-button-mobile{
+        font-family: 'Open Sans', sans-serif;
+    text-decoration-style: bold;
+    font-size: 13px;
+    position: absolute;
+    border-radius: 100px;
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    border-style: none;
+    background-color: rgb(248, 154, 53);
+    letter-spacing: 2px;
+    margin-top: 30px;
+    display: none;
+    margin-top: 90px;
+
+}
+.orange-button-mobile:hover {
+    background-color: #f8bf35;
+    }
+#forgot-button{
+font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: rgb(132, 149, 183);
+
+  text-align: right;
+  margin-left: 220px;
+  margin-top: 40px;
+  padding: 0;
+border: none;
+background: none;
+position: absolute;
+}
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 28px;
+    letter-spacing: 0.02em;
+}
+p {
+    position: absolute;
+    margin-top: 55px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.02em;
+    line-height: 28px;
+}
+.white-head {
+    color: #3e495e;
+    position: relative;
+}
+#login-header {} .magebit-picture {
+    background-image: url(../images/magebit-logo.png);
+    width: 41px;
+    height: 30px;
+    z-index: 2;
+    margin-left: 260px;
+    position: absolute;
+    top: 0;
+}
+.blue-line {
+    position: absolute;
+    margin-top: 55px;
+    width: 40px;
+    border-bottom: 2px solid #49abfe;
+    top: 0;
+}
+#register-active-button {
+    margin-left: 80px;
+    margin-top: 295px;
+    position: absolute;
+}
+#login-active-button {
+    margin-top: 130px;
+}
+.form-control {
+    outline: none;
+    border: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 280px;
+    border-width: 1px;
+    border-color: #cbd2df;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(62, 73, 94);
+    z-index: 3;
+}
+.active-image-mail {
+    background-image: url(../images/ic_mail.png);
+    width: 16px;
+    height: 14px;
+    margin-left: 270px;
+    margin-top: -15px;
+}
+.active-image-lock {
+    background-image: url(../images/ic_lock.png);
+    width: 16px;
+    height: 17px;
+    margin-left: 270px;
+    margin-top:-15px;
+}
+.active-image-user {
+    background-image: url(../images/ic_user.png);
+    width: 14px;
+    height: 16px;
+    margin-left: 270px;
+    margin-top: -15px;
+}
+.input-name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+
+  color: rgb(132, 149, 183);
+
+
+}
+
+
+#form-login {
+    margin-top: 55px;
+}
+#form-register {
+    margin-top: 55px;
+}
+.star {
+    color: #da2700;
+}
+.form-input-below{
+    margin-top: 30px;
+}
+footer {
+    font-size: 13px;
+    color: rgb(167, 179, 203);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.692;
+    margin-top: 110px;
+    text-align: center;
+    letter-spacing: 0.12em;
+}
+
+
+@media screen and (max-width:500px){
+  
+
+
+    #white-banner{
+        position: absolute;
+    
+
+        top: 45%;
+        width: 100%;
+    
+        margin: -215px 0 0 -215px;
+        visibility: visible;
+    }
+    .orange-button-mobile{
+        display: block;
+    }
+
+    body{
+       
+        background-image: url(../images/background-tablet.png);
+        overflow-x: hidden;
+   
+
+    }
+    #blue-banner{
+        visibility: hidden;
+    }
+
+
+}
+@media screen and (max-width:350px){
+    #white-banner{
+        zoom:80%;
+    }
+}
