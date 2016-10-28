@@ -1,4 +1,4 @@
-<!--<?php
+<?php
 ob_start();
 session_start();
 require_once 'dbconnect.php';
@@ -123,7 +123,7 @@ if (isset($_POST['btn-login'])) {
     
 }
 ?>
--->
+
 <!DOCTYPE html>
 <html>
    <head>
